@@ -48,7 +48,7 @@ module.exports = {
   likePost: async (req, res) => {
     try {
       await Post.findOneAndUpdate(
-        { _id: req.params.id },
+        { _id: req.params.id }, //_id: req.params.zebra, how we find our matching ID 
         {
           $inc: { likes: 1 },
         }
