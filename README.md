@@ -14,6 +14,7 @@
 - API_SECRET = your cloudinary api secret
 - logo
 - adapt pages
+- this port working!
 ---
 
 # Run
